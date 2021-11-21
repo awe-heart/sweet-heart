@@ -1,0 +1,75 @@
+[33m53dafea[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m HEAD@{0}: checkout: moving from test to master
+[33mfd6a445[m[33m ([m[1;31morigin/dev[m[33m)[m HEAD@{1}: checkout: moving from master to test
+[33m53dafea[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m HEAD@{2}: checkout: moving from dev to master
+[33mfd6a445[m[33m ([m[1;31morigin/dev[m[33m)[m HEAD@{3}: checkout: moving from test to dev
+[33mfd6a445[m[33m ([m[1;31morigin/dev[m[33m)[m HEAD@{4}: checkout: moving from dev to test
+[33mfd6a445[m[33m ([m[1;31morigin/dev[m[33m)[m HEAD@{5}: checkout: moving from dev to dev
+[33mfd6a445[m[33m ([m[1;31morigin/dev[m[33m)[m HEAD@{6}: checkout: moving from master to dev
+[33m53dafea[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m HEAD@{7}: checkout: moving from dev to master
+[33mfd6a445[m[33m ([m[1;31morigin/dev[m[33m)[m HEAD@{8}: commit: 解决冲突
+[33m0def357[m HEAD@{9}: commit: 体骄傲
+[33m53dafea[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m HEAD@{10}: reset: moving to HEAD
+[33m53dafea[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m HEAD@{11}: reset: moving to HEAD
+[33m53dafea[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m HEAD@{12}: checkout: moving from 404 to dev
+[33m53dafea[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m HEAD@{13}: checkout: moving from dev to 404
+[33m53dafea[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m HEAD@{14}: reset: moving to HEAD
+[33m53dafea[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m HEAD@{15}: checkout: moving from 404 to dev
+[33m144525f[m HEAD@{16}: commit: 在 404 分支中提交 dev 分支中修改的内容
+[33m53dafea[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m HEAD@{17}: checkout: moving from dev to 404
+[33m53dafea[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m HEAD@{18}: checkout: moving from master to dev
+[33m53dafea[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m HEAD@{19}: merge dev: Merge made by the 'recursive' strategy.
+[33ma3fdcfc[m HEAD@{20}: checkout: moving from dev to master
+[33m48d5a7b[m HEAD@{21}: commit: 使用禁止forward模式
+[33ma3fdcfc[m HEAD@{22}: checkout: moving from master to dev
+[33ma3fdcfc[m HEAD@{23}: merge dev: Fast-forward
+[33m4ee5df2[m HEAD@{24}: checkout: moving from dev to master
+[33ma3fdcfc[m HEAD@{25}: commit: 测试
+[33m4ee5df2[m HEAD@{26}: checkout: moving from master to dev
+[33m4ee5df2[m HEAD@{27}: checkout: moving from dev to master
+[33m916f4a1[m HEAD@{28}: checkout: moving from master to dev
+[33m4ee5df2[m HEAD@{29}: checkout: moving from dev to master
+[33m916f4a1[m HEAD@{30}: commit: 提交 dev 中修改的 demo.txt 文件
+[33m4ee5df2[m HEAD@{31}: checkout: moving from master to dev
+[33m4ee5df2[m HEAD@{32}: checkout: moving from dve to master
+[33md974cbc[m HEAD@{33}: checkout: moving from master to dve
+[33m4ee5df2[m HEAD@{34}: commit (merge): 尝试解决冲突
+[33mba525fb[m HEAD@{35}: checkout: moving from dve to master
+[33md974cbc[m HEAD@{36}: commit: 修改冲突后提交代码
+[33m85fd43f[m HEAD@{37}: checkout: moving from dve to dve
+[33m85fd43f[m HEAD@{38}: checkout: moving from master to dve
+[33mba525fb[m HEAD@{39}: commit (merge): 修改冲突后提交
+[33mccbbc30[m HEAD@{40}: checkout: moving from dve to master
+[33m85fd43f[m HEAD@{41}: checkout: moving from dve to dve
+[33m85fd43f[m HEAD@{42}: commit: 提交新增了 ten content 的 demo.txt 文件
+[33m2d26601[m HEAD@{43}: checkout: moving from master to dve
+[33mccbbc30[m HEAD@{44}: commit: 提交新增了 nine content 的 demo.txt 文件
+[33m2d26601[m HEAD@{45}: checkout: moving from dev to master
+[33m2d26601[m HEAD@{46}: checkout: moving from master to dev
+[33m2d26601[m HEAD@{47}: checkout: moving from dev to master
+[33m2d26601[m HEAD@{48}: merge master: Fast-forward
+[33mb0804f4[m HEAD@{49}: checkout: moving from master to dev
+[33m2d26601[m HEAD@{50}: commit: 在 master 分支中提交在 dev 分支中加入缓存区的文件
+[33mb0804f4[m HEAD@{51}: checkout: moving from dev to master
+[33mb0804f4[m HEAD@{52}: checkout: moving from master to dev
+[33mb0804f4[m HEAD@{53}: checkout: moving from dev to master
+[33mb0804f4[m HEAD@{54}: checkout: moving from master to dev
+[33mb0804f4[m HEAD@{55}: merge dev: Fast-forward
+[33mddcb60f[m HEAD@{56}: checkout: moving from dev to master
+[33mb0804f4[m HEAD@{57}: checkout: moving from master to dev
+[33mddcb60f[m HEAD@{58}: checkout: moving from dev to master
+[33mb0804f4[m HEAD@{59}: commit: 在分支 dev 中提交修改文件
+[33mddcb60f[m HEAD@{60}: checkout: moving from master to dev
+[33mddcb60f[m HEAD@{61}: checkout: moving from dev to master
+[33mddcb60f[m HEAD@{62}: checkout: moving from one to dev
+[33mddcb60f[m HEAD@{63}: checkout: moving from dev to one
+[33mddcb60f[m HEAD@{64}: checkout: moving from master to dev
+[33mddcb60f[m HEAD@{65}: commit: 提交修改的 demo.txt 文件
+[33m7d4971a[m HEAD@{66}: commit: 提交新建的 a.txt 文件
+[33m95a52ac[m HEAD@{67}: commit: 一次性提交两个文件“
+[33mfab2d5b[m HEAD@{68}: commit: 第二天学习使用 git
+[33mcd9d28f[m HEAD@{69}: reset: moving to cd9d28f
+[33m122085f[m HEAD@{70}: reset: moving to 122085f
+[33mcd9d28f[m HEAD@{71}: reset: moving to cd9d28f
+[33m122085f[m HEAD@{72}: commit: ''
+[33mcd9d28f[m HEAD@{73}: commit: 第二次提交 demo.txt
+[33m4da2ddb[m HEAD@{74}: commit (initial): demo.txt 文件提交
