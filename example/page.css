@@ -1,0 +1,676 @@
+
+/*css 初始化*/
+* {
+    box-sizing: border-box;
+}
+
+html {
+    --width: 60%;
+    --minwidth: 820px;
+    font-size: 16px;
+}
+
+body {
+    width: 100%;
+    min-width: var(--minwidth);
+    background-image: url("img/000.jpg"),url("img/home/back_head_bg.png");
+    background-repeat: repeat-x,repeat-x;
+    background-size: auto 145px,auto 140px;
+    background-position: 0 34px,0 0;
+    display: flex;
+    flex-flow: nowrap column;
+    align-items: center;
+}
+
+
+/*top 条样式*/
+#head {
+    width: var(--width);
+    min-width: var(--minwidth);
+    height: 30px;
+    text-align: right;
+    color: white;
+    font-size: 0.8em;
+}
+
+#head > span {
+    cursor: pointer;
+    user-select: none;
+}
+
+#head > span:hover {
+    text-decoration: underline;
+}
+
+#head > span:active {
+    text-decoration: underline;
+    color: palevioletred;
+}
+
+#head > span:last-child {
+    margin-left: 5px;
+    margin-right: 8px;
+    padding-left: 10px;
+    border-left-style: dashed;
+    border-left-color: white;
+    border-left-width: 1px;
+}
+
+
+/*navbar 样式*/
+#nav {
+    width: var(--width);
+    min-width: var(--minwidth);
+    margin-top: -3px;
+    font-size: 0.9em;
+}
+/*背景图样式*/
+#nav > div:first-child {
+    width: 100%;
+    height: 140px;
+    background-image: url("img/main_hd_bg2.png");
+    background-repeat: no-repeat;
+    background-size: 112% 100%;
+}
+/*nav 样式*/
+#nav > ul {
+    height: 40px;
+    padding-top: 5px;
+    padding-left: 10px;
+    margin-top: -23px;
+    margin-bottom: 0px;
+    border-top: 3px solid rgb(32,134,193);
+    border-bottom: 3px solid rgb(8,110,168);
+    background-image: url("img/vote_bg.png");
+    background-repeat: repeat-x;
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: flex-start;
+}
+
+#nav > ul > li {
+    display: inline-block;
+    height: 1.5em;
+    margin-left: 6px;
+    padding-left: 6px;
+    border-left-style: dashed;
+    border-left-color: white;
+    border-left-width: 1px;
+    width: 5em;
+}
+
+#nav > ul > li:first-child {
+    border: none;
+}
+
+#nav > ul > li > a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 5px;
+    font-size: 1em;
+    white-space: nowrap;
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+#nav > ul > li > a:hover {
+    background-color: rgb(57,190,239);
+}
+/*下拉框样式*/
+#nav > ul > li > a > ul {
+    position: absolute;
+    top: 22px;
+    left: -3px;
+    z-index: 1;
+    background-color: rgb(8,110,168);
+    padding: 0px;
+    width: 5em;
+    border: 1px solid black;
+    display: none;
+}
+
+#nav > ul > li > a:hover > ul {
+    display: block;
+}
+
+#nav > ul > li > a > ul > li {
+    list-style-type: none;
+    padding: 3px 2px;
+    border-bottom: 1px solid black;
+    border-top: 2px solid rgb(0,155,229);
+
+}
+
+#nav > ul > li > a > ul > li:hover {
+    background-color: rgb(0, 53, 79);
+}
+/*nav 下方信息样式*/
+#nav > div:last-child {
+    background-color: rgb(244,244,244);
+    border: 1px solid rgb(200,200,200);
+    height: 35px;
+    margin-top: 0px;
+    padding-top: 5px;
+    position: relative;
+}
+
+#nav > div:last-child > span {
+    margin: 5px 8px;
+    font-size: 0.5em;
+}
+
+#nav > div:last-child > span:first-child {
+    background-color: limegreen;
+    padding: 3px 5px;
+    margin-left: 15px;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    user-select: none;
+}
+
+#nav > div:last-child > div:last-child {
+    display: inline-block;
+    float: right;
+    margin-right: 20px;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+#nav > div:last-child > div:last-child > div {
+    display: inline-block;
+    border: 1px solid rgb(200,200,200);
+    border-radius: 3px;
+    background-color: white;
+}
+
+#nav > div:last-child > div:last-child > div > input {
+    border: none;
+    padding: 3px 10px;
+    margin: 0px;
+    width: 150px;
+    outline: none;
+    font-size: 0.9em;
+    transform: translateY(-2px);
+}
+
+#nav > div:last-child > div:last-child > div > img {
+    margin: 0px;
+    padding: 0px;
+    transform: translate(-6px,3px);
+    cursor: pointer;
+}
+
+
+/*正文部分样式*/
+#content {
+    width: var(--width);
+    min-width: var(--minwidth);
+    height: 1000px;
+    margin-top: 15px;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: calc(50% - 120px) calc(50% - 120px) 230px;
+    grid-template-rows: 23% 31% 23% 23%;
+}
+
+#content > div {
+    border: 1px solid rgb(200,200,200);
+    font-size: 0.8em;
+}
+
+#content > div > div:first-child {
+    width: 100%;
+    height: 30px;
+    background-color: rgb(242,242,242);
+    border: 2px solid white;
+    border-bottom: 1px solid rgb(200,200,200);
+    display: inline-block;
+    line-height: 2em;
+}
+
+#content > div > div:first-child > span:first-child {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+#content > div > div:first-child > span:last-child {
+    float: right;
+    margin-right: 15px;
+}
+
+#content > div > div:first-child > span:last-child:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#content > div > div:first-child > span:last-child:active {
+    text-decoration: underline;
+    cursor: pointer;
+    color: palevioletred;
+}
+
+#top_left {
+    grid-area: 1/1/2/2;
+    padding: 10px;
+    background-color: rgb(229,229,229);
+    position: relative;
+}
+
+#top_left > img {
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+#top_left > div {
+    width: calc(100% - 20px);
+    height: 30px;
+    background-color: rgba(0,0,0,0.3);
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    color: white;
+    white-space: nowrap;
+}
+
+#top_left > div > span:first-child {
+    vertical-align: middle;
+    line-height: 2.2em;
+    margin-left: 15px;
+    font-size: 1em;
+}
+
+#top_left > div > img {
+    vertical-align: middle;
+    margin-top: 10px;
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    cursor: pointer;
+}
+
+#top_left > div > img:first-of-type{
+    right: 79px;
+}
+
+#top_left > div > img:nth-of-type(2){
+    right: 62px;
+}
+
+#top_left > div > img:last-of-type{
+    right: 45px;
+}
+
+#top_left > div > span:last-child {
+    position: absolute;
+    right: 10px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+
+#top_left > div > span:last-child:hover {
+    text-decoration: underline;
+}
+
+#top_left > div > span:last-child:active {
+    text-decoration: underline;
+    color: palevioletred;
+}
+
+#top_center {
+    grid-area: 1/2/2/3;
+}
+
+#top_center > ul {
+    padding-top: 4px;
+    padding-left: 20px;
+    width: 280px;
+    margin: 5px auto;
+}
+
+#top_center > ul > li {
+    list-style-type: square;
+    font-size: 0.8em;
+    margin: 8px 2px;
+}
+
+#top_center > ul > li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#top_center > ul > li:active {
+    text-decoration: underline;
+    cursor: pointer;
+    color: palevioletred;
+}
+
+#top_right {
+    grid-area: 1/3/2/4;
+    background-color: rgb(240,240,240);
+}
+
+#top_right > table {
+    border: 1px solid rgb(200,200,200);
+    background-color: white;
+    width: 90%;
+    height: 65%;
+    margin: 1px auto;
+    empty-cells: show;
+}
+
+#top_right > table td:first-of-type ,#top_right > table td:last-of-type ,
+#top_right > table th:first-of-type ,#top_right > table th:last-of-type {
+    color: rgb(190,80,48);
+}
+
+#top_right > table td , #top_right > table th {
+    text-align: center;
+}
+
+#top_right > div:first-child {
+    border-bottom: none !important;
+    position: relative;
+}
+
+#top_right > div:first-child > span:first-of-type {
+    margin-left: 15px !important;
+}
+
+#top_right > div:first-child > img {
+    overflow: hidden;
+    width: 10px;
+    height: 10px;
+    object-fit: none;
+    transform: scale(0.9,0.9);
+    position: absolute;
+    margin-top: 8px;
+    cursor: pointer;
+    user-select: none;
+}
+
+#top_right > div:first-child > img:first-of-type {
+    object-position: 1px;
+    right: 107px;
+}
+
+#top_right > div:first-child > img:last-of-type {
+    object-position: -10px;
+    right: 15px;
+}
+
+#top_right > div:first-child > span:last-of-type {
+    position: absolute;
+    right: 35px;
+    font-size: 0.8em;
+}
+
+#top_right > div:last-child {
+    width: 100%;
+    padding: 7px 20px;
+    font-size: 0.8em;
+}
+
+#top_right > div:last-child > span:first-of-type {
+    color: rgb(190,80,48);
+    font-weight: bold;
+}
+
+#middle_top_left {
+    grid-area: 2/1/3/3;
+}
+
+#content > #middle_top_left > div:first-child {
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: flex-start;
+}
+
+#content > #middle_top_left > div:first-child > span {
+    all: initial;
+    display: inline-block;
+    font-size: 1.1em;
+    padding: 3px 20px;
+    border-right: 1px solid rgb(200,200,200);
+    cursor: pointer;
+    user-select: none;
+}
+
+#content > #middle_top_left > div:first-child > span:first-child {
+    background-color: white;
+    box-shadow: white 0px 3px 0px 0px;
+}
+
+#content > #middle_top_left > img {
+    height: 270px;
+    width: 600px;
+    display: block;
+    margin: auto auto;
+}
+
+#middle_top_right {
+    grid-area: 2/3/3/4;
+}
+
+#middle_top_right > figure {
+    display: inline-block;
+    margin: 6px 6px 0 12px;
+    transform: scale(0.92,0.92);
+}
+
+#middle_top_right > figure:nth-child(odd) {
+    margin: 7px 5px 0 13px;
+}
+
+#middle_top_right > figure:nth-of-type(3) , #middle_top_right > figure:last-child {
+    transform: scale(0.92,0.92) translateY(-5px);
+}
+
+#middle_top_right > figure > img {
+    border: 1px solid rgb(200,200,200);
+    padding: 6px;
+    background-color: rgb(220,220,220);
+    cursor: pointer;
+}
+
+#middle_top_right > figure >figcaption {
+    text-align: center;
+    margin-top: 1px;
+}
+
+#middle_bottom_left {
+    grid-area: 3/1/4/2;
+}
+
+#middle_bottom_left > ul {
+    padding-top: 4px;
+    padding-left: 20px;
+    width: 280px;
+    margin: 5px auto;
+}
+
+#middle_bottom_left > ul > li {
+    list-style-type: square;
+    font-size: 0.8em;
+    margin: 8px 2px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#middle_bottom_left > ul > li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#middle_bottom_left > ul > li:active {
+    text-decoration: underline;
+    cursor: pointer;
+    color: palevioletred;
+}
+
+#middle_bottom_center {
+    grid-area: 3/2/4/3;
+}
+
+#middle_bottom_center > ul {
+    padding-top: 4px;
+    padding-left: 20px;
+    width: 280px;
+    margin: 5px auto;
+}
+
+#middle_bottom_center > ul > li {
+    list-style-type: square;
+    font-size: 0.8em;
+    margin: 8px 2px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#middle_bottom_center > ul > li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#middle_bottom_center > ul > li:active {
+    text-decoration: underline;
+    cursor: pointer;
+    color: palevioletred;
+}
+
+#middle_bottom_right {
+    grid-area: 3/3/4/4;
+}
+
+#middle_bottom_right > .message {
+    margin: 5px 10px;
+    padding: 8px;
+    border-bottom: 1px solid rgb(200,200,200);
+}
+
+#middle_bottom_right > div:last-child.message {
+    border: none;
+}
+
+#middle_bottom_right > .message > span:first-child {
+    font-weight: bold;
+    color: rgb(202,107,5);
+    display: inline-block;
+    margin-right: 3px;
+}
+
+#middle_bottom_right > .message > span:nth-child(2) {
+    font-size: 0.8em;
+}
+
+#middle_bottom_right > .message > span:last-child {
+    display: inline-block;
+    margin: 4px 0px;
+}
+
+#bottom_left {
+    grid-area: 4/1/5/3;
+}
+
+#bottom_left > div {
+    display: inline-block;
+    margin: 3px auto;
+    padding: 0px;
+}
+
+#bottom_left > div:nth-of-type(1) {
+    margin-top: 0px;
+}
+
+#bottom_left > div:nth-of-type(2) {
+    margin-top: 0px;
+    width: 50%;
+}
+
+#bottom_left > div > ul {
+    padding-top: 4px;
+    padding-left: 20px;
+    width: 280px;
+    margin: 0px auto;
+}
+
+#bottom_left > div:last-child {
+    margin-top: 0px;
+    width: 47%;
+}
+
+#bottom_left > div:last-child > ul {
+    width: 270px;
+    padding-left: 22px;
+}
+
+#bottom_left > div  > ul > li {
+    list-style-type: square;
+    font-size: 0.8em;
+    margin: 8px 2px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#bottom_left > div > ul > li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#bottom_left > div > ul > li:active {
+    text-decoration: underline;
+    cursor: pointer;
+    color: palevioletred;
+}
+
+#bottom_right {
+    grid-area: 4/3/5/4;
+}
+
+#bottom_right > span {
+    display: inline-block;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 4px 6px;
+    margin: 15px 15px 10px 15px;
+}
+
+#bottom_right > label , #bottom_right > input[type="radio"] {
+    font-size: 0.8em;
+    vertical-align: middle;
+    display: inline-block;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#bottom_right > label {
+    margin-left: 2px;
+}
+
+#bottom_right > input[type="radio"] {
+    margin-left: 21px;
+}
+
+#bottom_right > button {
+    margin-left: 21px;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 3px;
+    box-shadow: 0px 0px 1px 1px rgb(171,200,230);
+    background-image: linear-gradient(to bottom,rgb(230,243,254),rgb(183,215,243));
+    font-size: 0.8em;
+    color: rgb(44,94,144);
+    cursor: pointer;
+    outline: none;
+}
+
+#bottom_right > button:active {
+    background-image: none;
+    background-color: rgb(230,243,254);
+    color: rgb(183,215,243);
+}
