@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>page</title>
+    <link type="text/css" rel="styleSheet"  href="page.css" />
+</head>
+<body>
+    <div id="head">
+        <span>后台登录</span>
+        <span>设为首页</span>
+    </div>
+    <div id="nav">
+        <div></div>
+        <ul>
+            <li>
+                <a href="#">首页
+                    <ul>
+                        <li>菜单一</li>
+                        <li>菜单二</li>
+                        <li>菜单三</li>
+                        <li>菜单四</li>
+                    </ul>
+                </a>
+            </li>
+            <li>
+                <a href="#">最新动态
+                    <ul>
+                        <li>菜单一</li>
+                        <li>菜单二</li>
+                        <li>菜单三</li>
+                        <li>菜单四</li>
+                    </ul>
+                </a>
+            </li>
+            <li>
+                <a href="#">政策法规
+                    <ul>
+                        <li>菜单一</li>
+                        <li>菜单二</li>
+                        <li>菜单三</li>
+                        <li>菜单四</li>
+                    </ul>
+                </a>
+            </li>
+            <li>
+                <a href="#">领导介绍
+                    <ul>
+                        <li>菜单一</li>
+                        <li>菜单二</li>
+                        <li>菜单三</li>
+                        <li>菜单四</li>
+                    </ul>
+                </a>
+            </li>
+            <li>
+                <a href="#">学习统计
+                    <ul>
+                        <li>菜单一</li>
+                        <li>菜单二</li>
+                        <li>菜单三</li>
+                        <li>菜单四</li>
+                    </ul>
+                </a>
+            </li>
+            <li>
+                <a href="#">机构设置
+                    <ul>
+                        <li>菜单一</li>
+                        <li>菜单二</li>
+                        <li>菜单三</li>
+                        <li>菜单四</li>
+                    </ul>
+                </a>
+            </li>
+            <li>
+                <a href="#">网络平台
+                    <ul>
+                        <li>菜单一</li>
+                        <li>菜单二</li>
+                        <li>菜单三</li>
+                        <li>菜单四</li>
+                    </ul>
+                </a>
+            </li>
+            <li>
+                <a href="#">值班表
+                    <ul>
+                        <li>菜单一</li>
+                        <li>菜单二</li>
+                        <li>菜单三</li>
+                        <li>菜单四</li>
+                    </ul>
+                </a>
+            </li>
+            <li>
+                <a href="#">留言板
+                    <ul>
+                        <li>菜单一</li>
+                        <li>菜单二</li>
+                        <li>菜单三</li>
+                        <li>菜单四</li>
+                    </ul>
+                </a>
+            </li>
+        </ul>
+        <div>
+            <span>值班表</span>
+            <span>2021年11月24日 星期三</span>
+            <span>带班领导：徐绍史2</span>
+            <span>值班人：张少农2</span>
+            <span>电话：13645871203</span>
+            <div>
+                <span>搜索</span>
+                <div>
+                    <input placeholder="输入内容"/>
+                    <img src="img/search.png" alt="搜索">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="content">
+        <div id="top_left">
+            <img src="img/01.jpg" alt="市委领导来我单位视察工作"/>
+            <div>
+                <span>市委领导来我单位视察工作</span>
+                <img src="img/current.png" alt="图标" onclick="chengeImg(0)"/>
+                <img src="img/point.png" alt="图标" onclick="chengeImg(1)"/>
+                <img src="img/point.png" alt="图标" onclick="chengeImg(2)"/>
+                <span>更多</span>
+            </div>
+        </div>
+        <div id="top_center">
+            <div>
+                <span>最新动态</span>
+                <span>更多</span>
+            </div>
+            <ul>
+                <li>温州环保局在报纸刊发整版广告盘点成就遭质疑</li>
+                <li>宁波倒楼事故调查：质量问题20年前就被曝光</li>
+                <li>温州环保局在报纸刊发整版广告盘点成就遭质疑</li>
+                <li>温州环保局在报纸刊发整版广告盘点成就遭质疑</li>
+                <li>温州环保局在报纸刊发整版广告盘点成就遭质疑</li>
+                <li>温州环保局在报纸刊发整版广告盘点成就遭质疑</li>
+                <li>温州环保局在报纸刊发整版广告盘点成就遭质疑</li>
+            </ul>
+        </div>
+        <div id="top_right">
+            <div>
+                <span>新闻日历</span>
+                <img src="img/calendar_arrow_black.png" alt="图标" onclick="calendarButton(-1)" onmousedown="chengeDown()"/>
+                <span>2021年 8月</span>
+                <img src="img/calendar_arrow_black.png" alt="图标" onclick="calendarButton(1)"  onmousedown="chengeDown()"/>
+            </div>
+            <table>
+                <tr>
+                    <th>日</th>
+                    <th>一</th>
+                    <th>二</th>
+                    <th>三</th>
+                    <th>四</th>
+                    <th>五</th>
+                    <th>六</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                    <td style="background-color:rgb(220,220,220)">13</td>
+                    <td>14</td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td>16</td>
+                    <td>17</td>
+                    <td>18</td>
+                    <td>19</td>
+                    <td>20</td>
+                    <td>21</td>
+                </tr>
+                <tr>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                    <td>28</td>
+                </tr>
+                <tr>
+                    <td>29</td>
+                    <td>30</td>
+                    <td>31</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+            <div>
+                <span>建国72周年</span><br/>
+                <span>农历辛丑年【牛年】</span>
+            </div>
+        </div>
+        <div id="middle_top_left">
+            <div>
+                <span onclick="chenge('img/chart.jpg')">信息统计</span>
+                <span onclick="chenge('img/chart.png')">网站统计</span>
+                <span onclick="chenge('img/chart.jpg')">访问统计</span>
+                <span onclick="chenge('img/chart.png')">流量统计</span>
+                <span onclick="chenge('img/chart.jpg')">数据统计</span>
+            </div>
+            <img src="img/chart.jpg" alt="统计信息图表"/>
+        </div>
+        <div id="middle_top_right">
+            <div>
+                <span>领导介绍</span>
+                <span>更多</span>
+            </div>
+            <figure>
+                <img src="img/photo_1.png" alt="张少农">
+                <figcaption>张少农</figcaption>
+            </figure>
+            <figure>
+                <img src="img/photo_2.png" alt="马三强">
+                <figcaption>马三强</figcaption>
+            </figure>
+            <figure>
+                <img src="img/photo_3.png" alt="胡学范">
+                <figcaption>胡学范</figcaption>
+            </figure>
+            <figure>
+                <img src="img/photo_4.png" alt="孙志强">
+                <figcaption>孙志强</figcaption>
+            </figure>
+        </div>
+        <div id="middle_bottom_left">
+            <div>
+                <span>最新动态</span>
+                <span>更多</span>
+            </div>
+            <ul>
+                <li>温州环保局在报纸刊发整版广告盘点成就遭质疑</li>
+                <li>宁波倒楼事故调查：质量问题20年前就被曝光</li>
+                <li>温州环保局在报纸刊发整版广告盘点成就遭质疑</li>
+                <li>温州环保局在报纸刊发整版广告盘点成就遭质疑</li>
+                <li>温州环保局在报纸刊发整版广告盘点成就遭质疑</li>
+                <li>温州环保局在报纸刊发整版广告盘点成就遭质疑</li>
+                <li>温州环保局在报纸刊发整版广告盘点成就遭质疑</li>
+            </ul>
+        </div>
+        <div id="middle_bottom_center">
+            <div>
+                <span>最新动态</span>
+                <span>更多</span>
+            </div>
+            <ul>
+                <li>温州环保局在报纸刊发整版广告盘点成就遭质疑</li>
+                <li>宁波倒楼事故调查：质量问题20年前就被曝光</li>
+                <li>温州环保局在报纸刊发整版广告盘点成就遭质疑</li>
+                <li>温州环保局在报纸刊发整版广告盘点成就遭质疑</li>
+                <li>温州环保局在报纸刊发整版广告盘点成就遭质疑</li>
+                <li>温州环保局在报纸刊发整版广告盘点成就遭质疑</li>
+                <li>温州环保局在报纸刊发整版广告盘点成就遭质疑</li>
+            </ul>
+        </div>
+        <div id="middle_bottom_right">
+            <div>
+                <span>留言板</span>
+                <span>更多</span>
+            </div>
+            <div class="message">
+                <span>admin</span><span>留言 2013-03-03 14:22</span><br/>
+                <span>这个网站不错，以后经常来哦！</span>
+            </div>
+            <div class="message">
+                <span>游客</span><span>留言 2013-03-03 14:22</span><br/>
+                <span>哈哈，第一次留言给你...</span>
+            </div>
+            <div class="message">
+                <span>admin</span><span>留言 2013-03-03 14:22</span><br/>
+                <span>你们说的是什么事情啊！不懂~</span>
+            </div>
+        </div>
+        <div id="bottom_left">
+            <div>
+                <span>最新动态</span>
+                <span>更多</span>
+            </div>
+            <div>
+                <ul>
+                    <li>温州环保局在报纸刊发整版广告盘点成就遭质疑</li>
+                    <li>宁波倒楼事故调查：质量问题20年前就被曝光</li>
+                    <li>温州环保局在报纸刊发整版广告盘点成就遭质疑</li>
+                    <li>温州环保局在报纸刊发整版广告盘点成就遭质疑</li>
+                    <li>温州环保局在报纸刊发整版广告盘点成就遭质疑</li>
+                    <li>温州环保局在报纸刊发整版广告盘点成就遭质疑</li>
+                    <li>温州环保局在报纸刊发整版广告盘点成就遭质疑</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>温州环保局在报纸刊发遭质疑</li>
+                    <li>宁波倒楼量问题20年前就被曝光</li>
+                    <li>温州环保局在整版就遭质疑</li>
+                    <li>温州环保局在点成就遭质疑</li>
+                    <li>温州环保整版广告盘点成就遭质疑</li>
+                    <li>温州环保局告盘点成就遭质疑</li>
+                    <li>温州环保局告盘点成就遭质疑</li>
+                </ul>
+            </div>
+        </div>
+        <div id="bottom_right">
+            <div>
+                <span>投票</span>
+                <span>更多</span>
+            </div>
+            <span>你认为杭州市最新出台的政策能够很好的被执行么？</span>
+            <input id="vote_one" type="radio" name="vote"/><label for="vote_one">应该可以吧</label><br/>
+            <input id="vote_two" type="radio" name="vote"/><label for="vote_two">不太清楚</label><br/>
+            <input id="vote_three" type="radio" name="vote"/><label for="vote_three">不能</label><br/>
+            <button>我要投票</button>
+        </div>
+    </div>
+    <script src="page.js"></script>
+</body>
+</html>
